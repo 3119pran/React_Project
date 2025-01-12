@@ -20,75 +20,17 @@ React Redux Toolkit: For efficient and scalable state management.
 Setup and Installation
 Pre-requisites
 Node.js: Make sure you have Node.js installed on your system. You can verify by running:
-
-bash
-Copy code
 node -v
-npm or yarn: The project uses npm (node package manager) to manage dependencies. You can install dependencies with either npm or yarn.
-
-Steps to Set Up the Project
 Clone the Repository:
-
 Clone the project repository from GitHub:
-
 bash
 Copy code
 git clone https://github.com/your-username/pasteapp.git
-Navigate to Project Directory:
-
-Change to the project directory:
-
-bash
-Copy code
 cd pasteapp
-Install Dependencies:
-
-Use npm (or yarn) to install the required dependencies:
-
-bash
-Copy code
 npm install
-Or if you're using yarn:
-
-bash
-Copy code
-yarn install
-Run the Development Server:
-
 Start the app in development mode:
-
-bash
-Copy code
 npm run dev
-Or if using yarn:
-
-bash
-Copy code
-yarn dev
 After the server starts, open your browser and visit http://localhost:3000 to see the app running.
-
-Project Structure
-Here's an overview of the project structure:
-
-bash
-Copy code
-/pasteapp
-│
-├── /public               # Static files
-│
-├── /src                  # Source code
-│   ├── /components       # Reusable components (buttons, inputs, etc.)
-│   ├── /features         # Redux slices and logic for pastes
-│   ├── /pages            # Different views for pastes (home, view, edit)
-│   ├── /store            # Redux store setup
-│   ├── /styles           # TailwindCSS configurations
-│   └── /App.jsx          # Main App component (routes & layout)
-│
-├── /tailwind.config.js   # Tailwind CSS configuration
-├── /vite.config.js       # Vite configuration
-└── package.json          # Project metadata and dependencies
-Usage
-Once the app is up and running, you can:
 
 Create a paste: Fill in the title and content and save it to your pastes list.
 View a paste: Click on any paste to view its content.
